@@ -18,7 +18,11 @@ class Route
   # use pattern to pull out route params (save for later?)
   # instantiate controller and call controller action
   def run(req, res)
+    # "^/cats"
+    Regexp.
+    controller = ControllerBase.new(req, res)
     
+    req.
   end
 end
 
